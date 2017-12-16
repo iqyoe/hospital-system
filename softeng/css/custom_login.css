@@ -1,0 +1,77 @@
+#loginPatient{
+  /*background-image: url('../img/bg1.jpeg');
+  background-size: cover;
+  background-position: top;*/
+  background: #0D47A1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #0D47A1, #00897B); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #0D47A1, #00897B); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #0D47A1, #00897B); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #0D47A1, #00897B); /* Standard syntax */
+}
+.container-fluid{
+  padding: 0 10%;
+}
+.row{
+  margin: 21vh 0;
+}
+.login-box{
+  color: #1976D2;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 6em 5em;
+  border-radius: 40px 0 0 40px;
+}
+.login-box h1{
+  text-align: center;
+}
+.login-box input{
+  border-radius: 25px;
+}
+.login-box button{
+  border-radius: 25px;
+  margin: 0 0 0 24vw;
+}
+#loginPatient .decoration{
+  background-image: url('../img/bg1.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  border-radius: 0 40px 0 0;
+  padding: 20px;
+  text-align: center;
+}
+#loginPatient .decoration .container-fluid{
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8.8em 5em;
+}
+@media only screen and (max-width: 500px) {
+  #loginPatient .row{
+    margin-top: 25%;
+  }
+  .login-box{
+    padding: 1.5em;
+    border-radius: 20px 0 20px 0;
+  }
+  .decoration{
+    display: none;
+  }
+}
+#Staff-Login{
+  background: #303F9F; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #303F9F, #00ACC1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #303F9F, #00ACC1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #303F9F, #00ACC1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #303F9F, #00ACC1); /* Standard syntax */
+}
+#Staff-Login .decoration{
+  background: url('../img/bg2.jpg');
+  background-size: cover;
+  background-position: left;
+  color: #fff;
+  border-radius: 0 40px 0 0;
+}
+#Staff-Login .login-box{
+  color: #1976D2;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 5em 4em;
+  border-radius: 40px 0 0 40px;
+}

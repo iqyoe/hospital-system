@@ -1,0 +1,132 @@
+/*--STAFF PAGE--*/
+/*
+stafflogin.php
+*/
+#AH-index{
+  background-image: url("../img/chair.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#AH-index .navbar{
+  /*background-color: rgba(139, 195, 74, 0.5); /*8BC34A*/
+}
+
+#AH-index .AH-Login{
+  margin: 10% 30%;
+  padding: 5%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #007bff;
+}
+
+@media only screen and (max-width: 500px) {
+    #AH-index .AH-Login{
+      margin: 10% 5%;
+      padding: 5%;
+    }
+}
+/*----------------------------------------------------------------------------*/
+/*
+Dashboard.php
+*/
+#AH-Sidebar{
+  padding: 20px 0;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+  background-color: #fff;
+}
+#AH-Sidebar .img-profile{
+  height: 100px;
+}
+#AH-Sidebar .nav {
+  margin-bottom: 20px;
+}
+#AH-Sidebar .nav-item {
+  width: 100%;
+}
+#AH-Sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+#AH-Sidebar .nav-link {
+  border-radius: 0;
+}
+#AH-Sidebar .nav-item a{
+  color: #8BC34A;
+}
+#AH-Sidebar .nav-item .active{
+  background-color: #8BC34A !important;
+  color: #fff;
+}
+
+#AH-Content{
+  background-color: #E0E0E0;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+/*--PATIENT PAGE--*/
+#AH-patient-index{
+  background: #0D47A1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #0D47A1, #00897B); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #0D47A1, #00897B); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #0D47A1, #00897B); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #0D47A1, #00897B); /* Standard syntax */
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+#AH-patient-index .btn{
+  border-radius: 30px;
+  margin-left: 0.5em;
+}
+#AH-patient-index .row{
+  background: #fff;
+}
+#AH-patient-index #desc{
+  text-align: center;
+  color: #fff;
+  background: url('../img/bg3.jpeg') rgba(0, 0, 0, 0.5);
+  background-size: cover;
+}
+#desc h1,p{
+  margin: 0em;
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.5);
+}
+.AH-patient-login{
+  padding: 5%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255,0.7);
+  opacity: 0.8;
+  color: #007bff;
+}
+.content{
+  padding: 5em;
+}
+
+#AH-patient-home{
+  background: #0D47A1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #0D47A1, #00897B); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #0D47A1, #00897B); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #0D47A1, #00897B); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #0D47A1, #00897B); /* Standard syntax */
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+#AH-patient-home .btn{
+  border-radius: 30px;
+  margin-left: 0.5em;
+}
+#AH-patient-home .row{
+  background: #fff;
+}
+#AH-patient-home #desc{
+  text-align: center;
+  color: #fff;
+  background: url('../img/bg3.jpeg') rgba(0, 0, 0, 0.5);
+  background-size: cover;
+}
+#AH-patient-home p{
+  background: rgba(255, 0, 0, 0);
+}
